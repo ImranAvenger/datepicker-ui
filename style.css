@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calendar {
+    font-family: Arial, sans-serif;
+    width: fit-content;
+    user-select: none;
+    position: relative;
+    margin: auto;
+    top: 50px;
+}
+
+.calendar__placeholder {
+    display: flex;
+    align-items: stretch;
+    width: fit-content;
+}
+
+.calendar__input {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+}
+
+.calendar__input:focus {
+    outline: none;
+}
+
+.calendar__button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #555;
+    width: 30px;
+    border: 2px solid black;
+    display: block;
+    height: 43px;
+    border-left: none;
+}
+
+.calendar__popup {
+    border: 2px solid black;
+    margin-top: 8px;
+    margin-left: 1px;
+}
+
+.calendar__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.calendar__nav {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.calendar__weekdays, .calendar__date-row {
+    display: flex;
+}
+
+.calendar__weekday, .calendar__date {
+    flex: 1;
+    min-width: 30px;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.calendar__weekday {
+    border-bottom: 2px solid black;
+}
+
+.calendar__date {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.calendar__date:first-child {
+    border-left: 2px solid black;
+}
