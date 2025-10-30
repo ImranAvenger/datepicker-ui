@@ -41,4 +41,3 @@ This project is based on the roadmap.sh frontend project:
 - Border collapsing techniques for grid-like structures
 - Flex properties (`flex: 1`, `align-items: stretch`)
 - Responsive design considerations
-- DOM manipulation and event handling
