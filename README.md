@@ -1,6 +1,6 @@
 # Datepicker UI
 
-A custom datepicker component built with HTML, CSS, and JavaScript as part of the [roadmap.sh Datepicker UI project](https://roadmap.sh/projects/datepicker-ui).
+A custom datepicker component built with HTML, CSS, and JavaScript as part of the roadmap.sh [Datepicker UI] (https://roadmap.sh/projects/datepicker-ui) project.
 
 ## Project Overview
 
